@@ -1,0 +1,60 @@
+-   Cài đặt customize - cra
+    Search customize-cra github
+
+*   add vào bằng : npm i customize-cra react-app-rewired -D
+*   truy cập vào customize-cra và làm theo hướng dẫn
+*   Thêm figle config-override ở root(toàn cục) và thêm vào module ...
+
+-   Cài đặt babel-plugin-module
+
+*   Serach babel-plugin-module github và làm theo hướng dẫn
+
+*   prettier code
+
+-   Thêm file .prettierrc : cop cod vào
+-   Tạo thư mục .vscode thêm vào file setting.json
+-   Thêm lệnh code để tự động gọi khi lưu file
+
+*   Cấu hình sử dụng CSS / SASS
+
+-   Tạo GlobalStyles component
+-   Cài thư mục SAS : npm i -D sass
+-   Reset CSS
+-   Default CSS : font-family , font-size , line-height
+
+*   Cấu hình Router / Layout:
+
+1. Phân tích tổng quan Layout
+
+-   Layout chính : header bên trên
+-   Sidebar bên trái
+-   Content bên phải
+
+2. Cài đặt React-router-dom
+3. Cấu hình router ra ngoài
+
+-   Tạo thư mục routes thêm file index.js
+-   tạo 2 constant
+
+4. Xây dựng cơ chế tải layout
+
+-   Phím tắt htmltagwrap : select khối con rồi Alt + W rồi sửa tên
+
+-   Components to ngoài là Component bao gồm các Component dùng chung
+-   Folder Component trong là bao gồm các component mà dùng riêng cho từng folder
+
+*   tippy : Dung de lam cac content phu len
+
+5. Thư viện Axios
+
+-   Tạo XMLHttpRequests từ trình duyệt
+-   Thực hiện các yêu cầu HTTP từ Node js
+-   Hỗ trợ API promise
+-   Chặn yêu cầu và phản hồi
+-   Chuyển đổi data yêu cầu và phản hồi
+-   Hủy yêu cầu
+-   Chuyển đổi tự động cho dữ liệu JSON
+-   Tự động tuần tự hóa đối tượng dữ liệu thành đa phần / biểu mẫu-dữ liệu và mã hóa phần thân được mã hóa x-www-form-urlenc
+-   Client side support for protecting against XSRF
+
+*   Có thể tạo axios với một cấu hình tùy chỉnh

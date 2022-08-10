@@ -1,0 +1,73 @@
+.wrapper {
+    --search-border-radius: 92px;
+    --search-height: 46px;
+    --search-top-spacer: 9px;
+    --search-button-width: 52px;
+    // Giữ nguyên thanh chức năng
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: var(--default-layout-header-height);
+    box-shadow: 0px 1px 1px rgb(0 0 0 /12%);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.inner {
+    height: 100%;
+    width: var(--default-layout-width);
+    padding: 0 var(--default-layout-horizontal);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    display: flex;
+}
+
+// uploadIcon
+.uploadIcon {
+    padding-right: 10px;
+}
+
+// Custom riêng ( Private )
+.customPrivate {
+    color: rgba(22, 24, 35, 0.6);
+}
+
+// Actions
+.action {
+    display: flex;
+    align-items: center;
+}
+
+// CSS sau khi login
+.action_login-btn {
+    background-color: transparent;
+    font-size: 2.2rem;
+    padding: 4px 12px;
+    color: #161823;
+    cursor: pointer;
+}
+.user-avatar {
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+// Icon Menu
+.more-btn {
+    font-size: 2rem;
+    padding: 4px 8px;
+    margin-left: 24px;
+    background: transparent;
+    cursor: pointer;
+}
+.IconMessgage {
+    margin: 0 20px;
+}

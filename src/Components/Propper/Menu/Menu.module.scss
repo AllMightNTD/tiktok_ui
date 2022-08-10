@@ -1,0 +1,51 @@
+// Menu
+.menu-list {
+    width: 224px;
+
+    // Menu item
+    .menu-item {
+        margin-left: 0;
+    }
+}
+
+.menu-popper {
+    padding-bottom: 8px;
+}
+
+// Thanh cuộn trên menu
+.menu-scroll {
+    overflow: auto;
+}
+
+.menu-item {
+    width: 100%;
+    justify-content: flex-start;
+    line-height: 1.8rem;
+    border-radius: 0;
+    padding: 11px 16px;
+    font-weight: 600;
+
+    &.separate {
+        border-top: yellow;
+    }
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+// Header Menu CSS
+.header-menu {
+    height: 50px;
+    display: flex;
+    margin-top: -8px;
+}
+.back-btn {
+    width: 50px;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+.header-title {
+    padding: 10px 20px;
+}
